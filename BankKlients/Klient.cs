@@ -1,8 +1,11 @@
 namespace BankKlients
 {
-    public class Klient : Person
+    public class Klient
     {
-        public decimal Sum { get; set; }
+        public string Fio { get; set; }
+
+        public int PassNom { get; set; }
+
         public override bool Equals(object obj)
         {
             if (obj == null)
@@ -17,6 +20,11 @@ namespace BankKlients
 
             Klient result = (Klient) obj;
             return result.Fio == Fio && result.PassNom == PassNom;
+        }
+
+        public override int GetHashCode()
+        {
+            return PassNom;
         }
     }
 }

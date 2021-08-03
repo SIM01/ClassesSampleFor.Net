@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleForEquals", "SampleFo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankKlients", "BankKlients\BankKlients.csproj", "{7909A6E0-F862-4C0A-832C-55622E5BFCEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleForDictionary", "SampleForDictionary\SampleForDictionary.csproj", "{F15BC226-2D3A-4F73-AACA-7880B2DA0975}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{7909A6E0-F862-4C0A-832C-55622E5BFCEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7909A6E0-F862-4C0A-832C-55622E5BFCEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7909A6E0-F862-4C0A-832C-55622E5BFCEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F15BC226-2D3A-4F73-AACA-7880B2DA0975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F15BC226-2D3A-4F73-AACA-7880B2DA0975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F15BC226-2D3A-4F73-AACA-7880B2DA0975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F15BC226-2D3A-4F73-AACA-7880B2DA0975}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
